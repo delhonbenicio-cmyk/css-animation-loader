@@ -1,25 +1,51 @@
-div{
-    margin: 100px;
-    padding: 80px;
-    background-color: salmon;
-    height: 200px;
-    width: 300px;
-    border-radius: 50px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: black;
+}
+.loader{
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(from 0deg,
+    #00f0ff,
+    #ff00f7,
+    #0f8,
+    #00f0ff);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: girar 2s infinite linear;
 }
 
-.boton--animado{
-        margin: 100px;
-    padding: 80px;
-    background-color: salmon;
-    height: 200px;
-    width: 300px;
-    border-radius: 50px;
+
+
+.center-loader{
+    background-color: yellowgreen;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
 }
 
-.boton--animado:hover{
-    animation: transform;
-}
 
-.boton--animado{
-    transform: scale(2);
+@keyframes girar {
+    0%{
+            transform: rotateY(0deg) rotateZ(0deg);
+    }
+
+    50%{
+
+    }
+    
+    100%{
+    transform: rotateY(360deg) rotateZ(360deg);
+    }
 }
