@@ -1,0 +1,25 @@
+div{
+    margin: 100px;
+    padding: 80px;
+    background-color: salmon;
+    height: 200px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.boton--animado{
+        margin: 100px;
+    padding: 80px;
+    background-color: salmon;
+    height: 200px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.boton--animado:hover{
+    animation: transform;
+}
+
+.boton--animado{
+    transform: scale(2);
+}

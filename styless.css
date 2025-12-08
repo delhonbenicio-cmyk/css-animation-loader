@@ -38,11 +38,11 @@ body{
 }
 @keyframes rebotar {
     0%{
-        transform: translateY(0px); scale(1);
-        background-color: white;
+        transform: translateY(0px) scale(1);
+        background-color: black;
     }
     100%{
-        transform: translateY(-200px) scale(10);
-        background-color: black;
+        transform: translateY(-200px) scale(1);
+        background-color: salmon;
     }
 }
