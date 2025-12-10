@@ -22,7 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: girar 2s infinite linear, brillar 2s infinite linear;
+    animation: girar 2s infinite alternate, brillar 2s infinite alternate;
 }
 
 
